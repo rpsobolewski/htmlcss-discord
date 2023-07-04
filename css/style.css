@@ -14,8 +14,13 @@ header {
     height: 694px;
 
 }
-.db{
-    padding: 30px;
+
+section{
+    background-image: url(/img/wave.svg), color beige;
+}
+
+.logo:hover{
+    background-color: #4271E7;
 }
 
 
@@ -28,18 +33,34 @@ header {
     border: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    color: #23272A;
 }
 
 .accedi {
+    
     margin-left: 100px;
     background-color: white;
     font-size: 15px;
     
 }
+
+.accedi:hover{
+    color: white;
+    background-color: #23272A;
+}
+
+.db{
+    padding: 30px;
+}
 .mac{
-
     font-size: 18px;
+    background-color: white;
 
+}
+
+.mac:hover{
+    color: white;
+    background-color: #23272A;
 }
 .brow{
     padding: 12px;
@@ -47,6 +68,11 @@ header {
     font-size: 15px;
     background-color: #23272A;
 
+}
+
+.brow:hover{
+    color: #23272A;
+    background-color: white;
 }
 
 /*buttons*/
