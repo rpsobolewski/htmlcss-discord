@@ -18,12 +18,13 @@ header {
     padding: 30px;
 }
 
+
 /*buttons*/
 
 .butt {
     
     padding: 9px 15px;
-    border-radius: 20px;
+    border-radius: 23px;
     border: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -37,11 +38,13 @@ header {
 }
 .mac{
 
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .brow{
+    padding: 12px;
     color: white;
+    font-size: 15px;
     background-color: #23272A;
 
 }
