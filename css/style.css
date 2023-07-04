@@ -15,13 +15,22 @@ header {
     height: 694px;
 
 }
+
+footer{
+    background-color: #23272A;
+}
 .logo:hover{
     background-color: #4271E7;
 }
 
 section{
     margin-top: 150px;
+   
     
+}
+
+big-section{
+    background-image: url(/img/wave.svg);
 }
 
 
@@ -57,6 +66,7 @@ section{
 .mac{
     font-size: 18px;
     background-color: white;
+    margin-right: 5px;
 
 }
 
@@ -69,6 +79,7 @@ section{
     color: white;
     font-size: 15px;
     background-color: #23272A;
+    margin-left: 5px;
 
 }
 
@@ -80,17 +91,18 @@ section{
 .lily{
     border-radius: 26px;
     font-size: 22px;
-    
     color: white;
     background-color: #8EA1E1;
+    border: 2px solid #8EA1E1 ;
+    margin-bottom: 50px;
 }
 .lily:hover{
     color: #8EA1E1;
     background-color: white;
-    border: 2px solid #8EA1E1 ;
 }
 
 /*buttons*/
+
 
 .list {
     color: white;
@@ -116,13 +128,19 @@ h2{
     font-size: 50px;
     font-weight: 700;
 }
-h3{
+.stars{
     background-image: url(/img/stars.svg);
     background-size: cover;
     width: 700px;
     height: 200px;
     font-size: 30px;
     font-weight: 700;
+}
+footer h3{
+    color: #8EA1E1;
+}
+h4{
+    color: #8EA1E1;
 }
 .container-2 {
     text-align: center;
@@ -201,10 +219,7 @@ big-section {
 
 }
 
-footer {
-    background-color: rgb(36, 36, 187);
-    margin-top: 50px;
-}
+
 
 .row {
 
@@ -217,7 +232,7 @@ footer {
 .rowb {
 
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
 
 }
@@ -249,6 +264,8 @@ footer {
     width: calc(100%/12*4);
     height: 60%;
     padding-top: 40px;
+    flex-grow: 6;
+
 }
 
 .col-8 {
