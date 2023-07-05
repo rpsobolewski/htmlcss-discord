@@ -16,20 +16,21 @@ header {
 
 }
 
-footer{
+footer {
     background-color: #23272A;
 }
-.logo:hover{
+
+.logo:hover {
     background-color: #4271E7;
 }
 
-section{
+section {
     margin-top: 150px;
-   
-    
+
+
 }
 
-big-section{
+big-section {
     background-image: url(/img/wave.svg);
 }
 
@@ -38,7 +39,7 @@ big-section{
 /*buttons*/
 
 .butt {
-    
+
     padding: 9px 15px;
     border-radius: 23px;
     border: 0;
@@ -48,33 +49,35 @@ big-section{
 }
 
 .accedi {
-    
+
     margin-left: 100px;
     background-color: white;
     font-size: 15px;
-    
+
 }
 
-.accedi:hover{
+.accedi:hover {
     color: white;
     background-color: #23272A;
 }
 
-.db{
+.db {
     padding: 30px;
 }
-.mac{
+
+.mac {
     font-size: 18px;
     background-color: white;
     margin-right: 5px;
 
 }
 
-.mac:hover{
+.mac:hover {
     color: white;
     background-color: #23272A;
 }
-.brow{
+
+.brow {
     padding: 12px;
     color: white;
     font-size: 15px;
@@ -83,21 +86,37 @@ big-section{
 
 }
 
-.brow:hover{
+.brow:hover {
     color: #23272A;
     background-color: white;
 }
 
-.lily{
+.lily {
     border-radius: 26px;
     font-size: 22px;
     color: white;
     background-color: #8EA1E1;
-    border: 2px solid #8EA1E1 ;
+    border: 2px solid #8EA1E1;
     margin-bottom: 50px;
 }
-.lily:hover{
+
+.lily:hover {
     color: #8EA1E1;
+    background-color: white;
+}
+
+.reg {
+
+    
+    background-color: #8EA1E1;
+    color: white;
+    border: 2px solid #8EA1E1;
+    font-size: 15px;
+    
+}
+
+.reg:hover {
+    color: #23272A;
     background-color: white;
 }
 
@@ -113,6 +132,13 @@ big-section{
     justify-content: space-evenly;
 }
 
+footer ul {
+    color: white;
+    list-style-type: none;
+    text-align: left;
+
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -124,11 +150,13 @@ h1 {
     padding-top: 70px;
     font-size: 40px;
 }
-h2{
+
+h2 {
     font-size: 50px;
     font-weight: 700;
 }
-.stars{
+
+.stars {
     background-image: url(/img/stars.svg);
     background-size: cover;
     width: 700px;
@@ -136,12 +164,43 @@ h2{
     font-size: 30px;
     font-weight: 700;
 }
-footer h3{
+
+footer h3 {
+    inline-size: 250px;
     color: #8EA1E1;
+    text-align: left;
+    font-size: 30px;
 }
-h4{
+
+footer .col-2 {
+    padding-left: 15px;
+    text-align: center;
+}
+
+footer .col-4 {
+    text-align: left;
+}
+
+.icon,
+.language {
+    color: white;
+}
+
+.language {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.icon {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+h4 {
     color: #8EA1E1;
+    text-align: left;
 }
+
 .container-2 {
     text-align: center;
     display: flex;
@@ -149,29 +208,33 @@ h4{
     align-items: center;
 
 }
-.container h2{
+
+.container h2 {
     inline-size: 420px;
 
 }
-.container-2 h2{
-    margin-top:  150px; 
+
+.container-2 h2 {
+    margin-top: 150px;
 
 }
 
-.he{
+.he {
     color: white;
 }
-p{
+
+p {
     padding-top: 15px;
     font-size: 18px;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
-.ma{
+.ma {
     inline-size: 350px;
 
 
 }
+
 .box {
     max-width: 45%;
     text-align: center;
@@ -230,18 +293,20 @@ big-section {
 }
 
 .rowb {
-
+    width: 100%;
     display: flex;
-    
-    align-items: center;
+    align-items: flex-start;
+    border-bottom: 2px solid #8EA1E1;
+    padding-bottom: 10px;
 
 }
 
 .rows {
+    width: 100%;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
@@ -251,6 +316,7 @@ big-section {
     width: calc(100%/12*2);
     height: 60%;
     padding-top: 40px;
+
 }
 
 .cols-2 {
