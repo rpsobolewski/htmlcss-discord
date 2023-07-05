@@ -47,14 +47,17 @@ big-section {
     background-color: #f6f6f6
 }
 
-.wave_top, .wave_bottom{
+.wave_top,
+.wave_bottom {
     color: #f6f6f6;
 
 }
-.wave_top{
-       margin-bottom: -10px; 
+
+.wave_top {
+    margin-bottom: -10px;
 }
-.wave_bottom{
+
+.wave_bottom {
     rotate: 180deg;
     margin-top: -10px;
 }
@@ -262,11 +265,8 @@ p {
 
 }
 
-.box {
-    max-width: 45%;
-    text-align: center;
-}
 
+/*sections*/
 .banner {
 
     width: 80%;
@@ -276,6 +276,10 @@ p {
     margin: auto;
 }
 
+.box {
+    max-width: 45%;
+    text-align: center;
+}
 
 
 
@@ -334,11 +338,7 @@ p {
 
 }
 
-.cols-2 {
-    width: calc(100%/12*2);
-    height: 60%;
-    padding-top: 40px;
-}
+
 
 
 .col-4 {
@@ -379,6 +379,7 @@ p {
     align-items: center;
 }
 
+/*sections*/
 
 
 /*debug*/
