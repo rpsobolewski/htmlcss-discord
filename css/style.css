@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: contain;
     height: 694px;
 
@@ -24,17 +24,40 @@ footer {
     background-color: #4271E7;
 }
 
+
+
+
 section {
-    margin-top: 150px;
+
+    display: flex;
+    align-items: center;
 
 
 }
 
 big-section {
-    background-image: url(/img/wave.svg);
+    height: 1000px;
+    display: flex;
+    align-items: center;
+
+
 }
 
+.col {
+    background-color: #f6f6f6
+}
 
+.wave_top, .wave_bottom{
+    color: #f6f6f6;
+
+}
+.wave_top{
+       margin-bottom: -10px; 
+}
+.wave_bottom{
+    rotate: 180deg;
+    margin-top: -10px;
+}
 
 /*buttons*/
 
@@ -107,12 +130,12 @@ big-section {
 
 .reg {
 
-    
+
     background-color: #8EA1E1;
     color: white;
     border: 2px solid #8EA1E1;
     font-size: 15px;
-    
+
 }
 
 .reg:hover {
@@ -201,6 +224,10 @@ h4 {
     text-align: left;
 }
 
+h4>a {
+    color: #8EA1E1;
+}
+
 .container-2 {
     text-align: center;
     display: flex;
@@ -249,19 +276,7 @@ p {
     margin: auto;
 }
 
-section {
-    height: 600px;
-    display: flex;
-    align-items: center;
 
-}
-
-big-section {
-    height: 1000px;
-    display: flex;
-    align-items: center;
-
-}
 
 
 .container {
